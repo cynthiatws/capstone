@@ -35,7 +35,7 @@ header {
   }
   
   .menu li {
-        float: right;
+    display: inline;
   }
   
   .menu a {
