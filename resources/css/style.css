@@ -35,7 +35,7 @@ header {
   }
   
   .menu li {
-    margin-right: 16px; /* Space between menu items */
+        float: right;
   }
   
   .menu a {
