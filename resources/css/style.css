@@ -1,79 +1,100 @@
 
-   .logo {
-    height: 50px; /* Adjust size as needed */
-    width: auto;
-    margin-left: 24px;
-  }
+.logo {
+  height: 50px; /* Adjust size as needed */
+  width: auto;
+  margin-left: 24px;
+}
 
 .logo-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .site-name-1, .site-name-2 {
-  display: inline-block;
-  font-size: 32px;
+display: inline-block;
+font-size: 32px;
 }
 
 .site-name-1 {
-    color: #333;               /* Color for COLMAR */
-    margin-right: 0px; 
-    font-size:32px;        /* Space between the two names */
+  color: #333;               /* Color for COLMAR */
+  margin-right: 0px; 
+  font-size:32px;        /* Space between the two names */
 }
 
 .site-name-2 {
-    color: #777;  
-    font-size:32px;             /* Color for ACADEMY */
+  color: #777;  
+  font-size:32px;             /* Color for ACADEMY */
 }
 
 .navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
 
 .navbar ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 
 .navbar li {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .navbar a {
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    padding: 16px;
-    color: #333;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  color: #333;
 }
 .grey-section {
-  background-color: #b4b1b1; /* Light grey background */
-  padding: 32px 24px;             /* Add some padding */
-  margin: 0px;           /* Add margin above and below */
-  height: 300px;
+background-color: #b4b1b1; /* Light grey background */
+padding: 32px 24px;             /* Add some padding */
+margin: 0px;           /* Add margin above and below */
+height: 300px;
 }
 
 .img1{
-  float:left;
-  margin: 0 24px 0 0;
+float:left;
+margin: 0 24px 0 0;
 }
 .textbox1{
-  text-align: left;
-  top:50%;
-  left: 50%;
-  padding: 40px 40px;
+text-align: left;
+top:50%;
+left: 50%;
+padding: 40px 40px;
 }
 
 .start-here{
-  background-color: #474545;
-  color: white;
-  border: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-  width: 250px;
-  height: 35px;
-  padding: 8px 0;
+background-color: #474545;
+color: white;
+border: 0px;
+font-family: Arial, Helvetica, sans-serif;
+width: 250px;
+height: 35px;
+padding: 8px 0;
+}
+
+.secondsection{
+  display: flex;
+  margin: 32px 24px;
+}
+.secondcolumnb{
+  margin: 32px 24px;
+}
+.columnone{
+  display: flex;
+}
+.columntwo{
+  display: flex;
+}
+.columnthree{
+  display: flex;
+}
+
+.bodytext{
+  margin-left:20px;
 }
